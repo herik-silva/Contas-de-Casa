@@ -1,0 +1,35 @@
+/* CSS DA PALETA DE CORES TEMA ESCURO */
+
+:root {
+    --d-bg: #131313;
+    --d-bg-primary: #232323;
+    --d-bg-confirm: #2e7d32;
+    --d-btn-change: #FFF;
+    --d-font: #F7F7ED;
+}
+
+.d-container {
+    background-color: var(--d-bg);
+    color: var(--d-font);
+}
+
+.d-header {
+    background-color: var(--d-bg-primary);
+    color: var(--d-font);
+}
+
+.d-card {
+    background-color: var(--d-bg-primary);
+    color: var(--d-font);
+    
+}
+
+.l-btn-confirm {
+    background-color: var(--d-bg-confirm);
+    color: #FFF;
+}
+
+.d-btn-change {
+    background-color: var(--d-btn-change);
+    color: #131313;
+}

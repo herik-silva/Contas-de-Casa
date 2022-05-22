@@ -1,0 +1,35 @@
+/* CSS DA PALETA DE CORES TEMA CLARO */
+
+:root {
+    --l-bg: #F78F20;
+    --l-bg-primary: #505050;
+    --lg-bg-confirm: #2e7d32;
+    --l-bg-change: #131313;
+    --lg-font: #F7F7ED;
+}
+
+.l-container {
+    background-color: var(--l-bg);
+    color: var(--lg-font);
+}
+
+.l-header {
+    background-color: var(--l-bg-primary);
+    color: var(--lg-font);
+}
+
+.l-card {
+    background-color: var(--l-bg-primary);
+    color: var(--lg-font);
+    
+}
+
+.l-btn-confirm {
+    background-color: var(--lg-bg-confirm);
+    color: #FFF;
+}
+
+.l-btn-change {
+    background-color: var(--l-bg-change);
+    color: #FFF;
+}
